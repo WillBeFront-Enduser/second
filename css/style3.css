@@ -1,0 +1,13 @@
+body {
+	background: linear-gradient(#FF3155 0%, #FF3155 25%, #FFAF42 25%, #FFAF42 50%, #FFED5E 50%, #FFED5E 75%, #2DAEFD 75%);
+	bakground-position: 100px 100vh;
+	background-repeat: repeat-y;
+	background-position: 0px 0px;
+	animation: gradient 10s infinite linear;
+}
+ 
+@keyframes gradient {
+	to {
+		background-position: 0 1000px;
+	}
+}
