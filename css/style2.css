@@ -21,8 +21,14 @@ body {
     }
 }
 
-img {
+.i2 {
   display: block;
   max-width: 100%;
   height: auto;
+  }
+
+.i1{
+  position: relative;
+  left: 1400px;
+  top: 390px;
   }
