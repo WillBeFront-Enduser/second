@@ -1,20 +1,26 @@
 .links {
-    width: 200px; /* Если нужно, задаем ширину */
+    width: 200px; 
   }
   
   .links a {
-    background-color: #eee; /* Серый фон */
-    color: black; /* Черный текст */
-    display: block; /* Чтобы ссылки отображались друг под другом */
-    padding: 12px; /* Отступы */
-    text-decoration: none; /* Убираем у ссылок подчеркивание */
+    background-color: #eee; 
+    color: black; 
+    display: block; 
+    padding: 12px; 
+    text-decoration: none; 
   }
   
   .links a:hover {
-    background-color: #ccc; /* Темно-серый фон при наведении курсора */
+    background-color: #ccc; 
   }
   
   .links a.active {
-    background-color: #04AA6D; /* Зеленый фон для "активной/текущей" ссылки */
+    background-color: #04AA6D; 
     color: white;
   }
+
+.ger {
+  position: relative;
+  left: 0px;
+  top: 520px;;
+}
