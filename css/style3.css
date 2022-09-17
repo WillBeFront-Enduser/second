@@ -1,13 +1,27 @@
-body {
-	background: linear-gradient(#FF3155 0%, #FF3155 25%, #FFAF42 25%, #FFAF42 50%, #FFED5E 50%, #FFED5E 75%, #2DAEFD 75%);
-	background-position: 100px 100vh;
-	background-repeat: repeat-y;
-	background-position: 0px 0px;
-	animation: gradient 10s infinite linear;
-}
- 
-@keyframes gradient {
-	to {
-		background-position: 0 1000px;
-	}
-}
+DIV {
+    width: 50%;
+    max-width: 500px;
+    height: 200px;
+    background: linear-gradient(crimson, gold, yellowgreen, teal, crimson);
+    background-position: 0 0;
+    border-radius: 30px;
+    border: 10px solid white;
+    animation: background 2s infinite alternate;
+  }
+  
+  @keyframes background {
+    100% {
+      background-position: 0 200px;
+    }
+  }
+  
+  /* Helpers */
+  BODY {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EEE;
+    font-size: 16px;
+  }
