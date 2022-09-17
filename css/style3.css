@@ -1,4 +1,4 @@
-DIV {
+div {
     width: 50%;
     max-width: 500px;
     height: 200px;
@@ -16,7 +16,7 @@ DIV {
   }
   
   /* Helpers */
-  BODY {
+  body {
     margin: 0;
     padding: 0;
     display: flex;
