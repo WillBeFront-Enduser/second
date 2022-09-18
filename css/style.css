@@ -10,7 +10,14 @@
     text-decoration: none; 
   }
   
-
+  .links a:hover {
+    background-color: #ccc; 
+  }
+  
+  .links a.active {
+    background-color: #04AA6D; 
+    color: white;
+  }
 
 .ger {
   position: relative;
